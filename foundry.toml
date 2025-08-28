@@ -1,0 +1,41 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+lint_on_build = false
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@foundry-devops/=lib/foundry-devops/"
+]
+
+[lint]
+exclude_lints = [
+  "screaming-snake-case-immutable",
+  "mixed-case-variable",
+  "asm-keccak256",
+  "empty-blocks",
+  "unsafe-typecast",
+  "magic-numbers",
+  "func-name-mixedcase",
+  "var-name-mixedcase",
+  "const-name-screaming-snake",
+  "event-name-pascalcase",
+  "error-name-pascalcase",
+  "contract-name-camelcase",
+  "import-alias",
+  "visibility",
+  "ordering",
+  "reason-strings",
+  "no-unused-vars",
+  "named-return-values",
+  "payable-fallback",
+  "multiple-constructors",
+  "reentrancy",
+  "gas-usage",
+  "assembly",
+  "low-level-calls",
+  "deprecated",
+  "unused-imports"
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

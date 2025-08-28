@@ -1,0 +1,20 @@
+{
+  "name": "merkle-airdrop",
+  "version": "1.0.0",
+  "description": "Merkle tree-based token airdrop with signature verification",
+  "scripts": {
+    "lint": "solhint-community 'src/**/*.sol' 'test/**/*.sol' 'script/**/*.sol'",
+    "lint:fix": "solhint-community 'src/**/*.sol' 'test/**/*.sol' 'script/**/*.sol' --fix"
+  },
+  "devDependencies": {
+    "solhint-community": "^4.0.0"
+  },
+  "keywords": [
+    "solidity",
+    "merkle-tree",
+    "airdrop",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT"
+}
