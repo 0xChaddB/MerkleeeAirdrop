@@ -16,3 +16,4 @@ docs/
 lib/
 .solhint.json
 foundry.lock
+.github
