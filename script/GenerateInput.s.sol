@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import {Script} from "forge-std/Script.sol";
-import {stdJson} from "forge-std/StdJson.sol";
-import {console} from "forge-std/console.sol";
+import {Script, console} from "forge-std/Script.sol";
 
 // Merkle tree input file generator script
 contract GenerateInput is Script {
